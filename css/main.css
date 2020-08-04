@@ -1,0 +1,120 @@
+.topnav {
+  overflow: hidden;
+  background-color: #inherit;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.color-red
+{
+	color:#F00;
+}
+
+
+.topnav a:hover {
+  background-color: #17e  ;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #562380;
+  color: yellow;
+}
+
+.color_caption{
+  
+font-style: italic;
+text-decoration:underline;
+font-family: "Times New Roman", Times, sans-serif;
+overflow: hidden;
+text-align:center;
+background-color : inherit;
+border:2px;
+border-style:inset;
+color: #f77;
+outline:2px;
+cursor:pointer;
+padding:14px 16px;
+transition:0.3s;
+font-size:32px;
+
+}
+
+.color_buttons button{
+
+overflow: hidden;
+background-color : #f77;
+float:left;
+border-style:inset;
+color: #fc7;
+outline:2px;
+cursor:pointer;
+padding:14px 16px;
+transition:0.3s;
+font-size:17px;
+
+}
+
+.color_buttons button:hover {
+  background-color: inherit;
+  color: yellow;
+}
+
+
+
+.tuna{color:#229;}
+
+p.tuna{color:#229;}
+
+p[name] {color:#229;}
+
+.pubg{color:#229;}
+
+
+#font_color{
+margin-top: 200px;
+max-width: 400px;
+
+}
+
+.text-red{color:red;}
+.text-blue{color:blue;font-weight;bold;}
+
+#Home
+{
+	overflow:hidden;
+	max-width:inherit;
+	height:inherit;	
+	min-height:800px;	
+
+}
+
+
+.ImagePage
+{
+
+margin-top:200px;
+margin-bottom:20px;
+max-width:600px;
+max-height:400px;
+
+}
+
+.Images
+{
+
+position:relative;
+left:40px;
+overflow:hidden;
+max-width:100;
+max-height:auto;
+}
+
+

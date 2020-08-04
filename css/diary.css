@@ -1,0 +1,58 @@
+.topnav {
+  overflow: hidden;
+  background-color: #0;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #17e4;
+  color: yellow;
+}
+
+.topnav a.active {
+  background-color: #562380;
+  color: white;
+}
+
+.button_show{
+
+background-color: #48f;
+color: gold;
+
+  float: left;
+  text-align: left;
+  padding: 14px 10px;
+  text-decoration: oblique;
+  font-size: 16px;
+
+}
+
+
+.tuna{color:#229;}
+
+p.tuna{color:#229;}
+
+p[name] {color:#229;}
+
+.pubg{color:#229;}
+
+
+
+#About
+{
+	overflow:hidden;
+	max-width:inherit;
+	height:inherit;	
+	min-height:800px;	
+
+
+}
+

@@ -3,13 +3,86 @@
 <html>
 
 <head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href= "css/tabs.css"/>
+<script src="js/tabClick.js"></script>
+
+
+
 </head>
+<body id="backbody" >
+<div id="background_img" background="pics/hb.jpg">
 
 
-<body>
 
-Work in Progress.....
-</body>
 
+<div class="tab">
+<button class="tablinks active"
+onclick="openPart(event,'Home','pics/pic2.jpg')">Home</button>
+<button class="tablinks"
+onclick="openPart(event,'About','pics/pic3.jpg')">About</button>
+<button class="tablinks"
+onclick="openPart(event,'Contact','pics/pic1.jpg')">Contact</button>
+</div>
+
+
+<div id="homeclick">
+Click home to continue
+
+<div style>
+
+</div>
+
+</div>
+
+
+<div id="Home" class="tabcontent background_home">
+<title>Vishwesh Thonte</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<script src="js/font_color.js"></script>
+
+<p>
+This is the body yet incomplete.
+</p>
+<p>
+Hey there! I see you have come to visit my site. Well, yeah its not yet complete yet. I am currently working on it. See ya!. Have a good day!. Visit again for more updates.
+</p>
+<div class="ImagePage">
+
+<img src="pics/pic1.jpg" style="width:100px" class="Images">
+<img src="pics/pic2.jpg" style="width:100px" class="Images">
+<img src="pics/pic3.jpg" style="width:100px" class="Images">
+
+
+</div>
+
+</div>
+
+<div id="About" class="tabcontent background_diary">
+
+<script src="../js/diary.js"></script>
+<link rel="stylesheet" type="text/css" href="css/diary.css"/>
+
+<p>This is about</p>
+  <a href= "https://drive.google.com/file/d/1rqb62Jp0CSEoNoOcJPPJBQFviIqy3Cam/view?usp=drivesdk">Resume</a>
+
+
+</div>
+
+
+<div id="Contact" class="tabcontent background_songs">
+<link rel="stylesheet" type="text/css" href="css/songs.css"/>
+<link rel="stylesheet" type="text/css" href="css/playliststyle.css"/>
+
+<script src="js/songs.js"></script>
+<script src="js/playscript.js"></script>
+
+<p>Contact me on Facebook</p>
+
+</div>
+
+
+</div>
 
 </html>
